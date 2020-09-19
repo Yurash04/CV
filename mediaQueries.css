@@ -2,12 +2,12 @@
 @media only screen and (max-width: 480px) {
 
   body {
-    font-size: 16px;
+    font-size: 17px;
     margin: 30px;
   }
 
   header {
-    width: 350px;
+    width: 300px;
     margin: 0 auto;
   }
 
@@ -18,13 +18,22 @@
   }
   
   h2 {
-    font-size: 18px;
+    font-size: 19px;
     margin: 20px 0;
   }
   
   .personal-info {
-    width: 350px;
+    width: 300px;
     margin: 0 auto;
+  }
+
+  .contact li {
+    padding: 0 15px;
+  }
+
+  .contact li:last-child {
+    padding: 0;
+    margin-top: 5px;
   }
 
 }
