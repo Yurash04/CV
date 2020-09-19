@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Inter', 'Times New Roman', sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: #555;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+body { overflow-x: hidden;}
+
+header {
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  /* text-align: center; */
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 45px;
+  word-spacing: 4px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.personal-info {
+  width: 400px;
+  margin: 0 auto;
+}
+
+li {
+  margin: 15px 0;
+}
+
+.contact li {
+  display: inline-block;
+  padding: 0 8px;
+  margin: 0;
+  vertical-align: top;
+}
+
+.contact li:first-child {
+  padding-left: 0;
+}
+
+.contact li:last-child {
+  line-height: 35px;
+}
+
+ion-icon {
+  font-size: 35px;
+}
+
+a:link,
+a:visited {
+  transition: color 0.5s;
+  text-decoration: none;
+  color: rgba(85, 85, 85, 0.774);
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #4680C2;
+}
+
+.github-logo:hover {
+  color: black;
+}
+
+.vk-logo:hover {
+  color: #4680C2;
+}
+
+.facebook-logo:hover {
+  color: #3b5997;
+}
+
+
+
+
+
+
